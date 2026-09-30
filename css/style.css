@@ -1,74 +1,74 @@
   * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+  }
 
-        body {
-            background-color: #f2f2f2;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-           
-        }
+  body {
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
 
-        .calculadora {
-            background-color: #4d073b;
-            width: 350px;
-            padding: 20px;
-            border-radius: 35px;
-            box-shadow: 0 5px 20px rgba(235, 29, 166, 0.3);
-        }
+  }
 
-        #display {
-            width: 100%;
-            height: 70px;
-            margin-bottom: 15px;
-            background-color: #fff;
-            border: none;
-            border-radius: 10px;
-            text-align: right;
-            padding: 10px;
-            font-size: 30px;
-        }
+  .calculadora {
+      background-color: #4d073b;
+      width: 350px;
+      padding: 20px;
+      border-radius: 35px;
+      box-shadow: 0 5px 20px rgba(235, 29, 166, 0.3);
+  }
 
-        .botoes {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 10px;
-          
-        }
+  #display {
+      width: 100%;
+      height: 70px;
+      margin-bottom: 15px;
+      background-color: #fff;
+      border: none;
+      border-radius: 10px;
+      text-align: right;
+      padding: 10px;
+      font-size: 30px;
+  }
 
-        button {
-            height: 60px;
-            border: none;
-            border-radius: 10px;
-            font-size: 22px;
-            cursor: pointer;
-            background-color: #fad4f2;
-             color: #6e2153;
-            border-radius: 50px;
-            padding: 15px;
-        }
+  .botoes {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
 
-        button:hover {
-            background-color: #f5b2e4;
-        }
+  }
 
-        .operador {
-            background-color: #d44bab;
-        }
+  button {
+      height: 60px;
+      border: none;
+      border-radius: 10px;
+      font-size: 22px;
+      cursor: pointer;
+      background-color: #fad4f2;
+      color: #6e2153;
+      border-radius: 50px;
+      padding: 15px;
+  }
 
-        .operador:hover {
-            background-color: #a82980;
-        }
+  button:hover {
+      background-color: #f5b2e4;
+  }
 
-        .igual {
-            background-color: #a5f1bc;
-        }
+  .operador {
+      background-color: #d44bab;
+  }
 
-        .limpar {
-            background-color: #dc3545;
-        }
+  .operador:hover {
+      background-color: #a82980;
+  }
+
+  .igual {
+      background-color: #a5f1bc;
+  }
+
+  .limpar {
+      background-color: #dc3545;
+  }
